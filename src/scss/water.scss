@@ -1,0 +1,128 @@
+
+// Custom variable overrides
+// See node_modules/bootstrap/scss/_variables.scss
+
+// $body-bg: black;
+// $body-color: white;
+// $link-hover-color: grey;
+// $font-family-sans-serif: "Helvetica Neue";
+
+/* bootstrap */
+// Option A: Include all of Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Option B: Include parts of Bootstrap
+// See https://getbootstrap.com/docs/4.1/getting-started/theming/#importing
+
+// Required
+// @import "../../node_modules/bootstrap/scss/functions";
+// @import "../../node_modules/bootstrap/scss/variables";
+// @import "../../node_modules/bootstrap/scss/mixins"; 
+
+// Import partials
+@import "nav";
+
+h3 {
+  font-size: 1.5rem;
+}
+
+
+
+body {
+  background-color: lightblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: red;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#watersports {  
+  color: red;
+  font-size: 60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-bottom: 4px solid slateblue;
+  padding-bottom: 40px;
+}
+
+#swimming {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-bottom: 4px solid white;
+  padding-bottom: 5px;
+}
+
+#strokes {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-bottom: 4px solid slateblue;
+  padding-bottom: 5px;
+  font-size: 40px;
+}
+
+#strokelist {
+  font-size: 30px;
+  color: red;
+  padding: 10px;
+}
+
+#waterpolo {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-bottom: 4px solid white;
+  padding-bottom: 5px;
+}
+
+#equipment {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-bottom: 4px solid slateblue;
+  padding-bottom: 5px;
+  font-size: 40px;
+}
+
+#equipmentlist {
+  font-size: 30px;
+  color: red;
+  padding: 10px;
+}
+
+.mainsports {
+  height: auto;
+  width: auto;
+  border: 3px solid red;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.listsports {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: slateblue;
+}
+
+img {
+  height: auto;
+  width: auto;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+p {
+  color: slateblue;
+  font-size: 16px;
+  line-height: 30px ;
+  text-align:center;
+}
+
+h1 {
+  color: red;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}

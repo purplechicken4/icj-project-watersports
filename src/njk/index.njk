@@ -1,0 +1,23 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}Index page title{% endblock %}
+
+{% block page_description %}The index search description for this page goes here.{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1>Aquatic World</h1>
+  <p>Welcome to Aquatic World! Browse our site to learn all about water sports and connect with fellow aquatic athletes!</p>
+  <h2>Some Water Sports</h2>
+  <p>Swimming<br>Water Polo<br>Synchronized Swimming</p>
+  <div class="row">
+    {% for sport in watersports.watersports %}
+      <div class="col-sm-4">
+        <img src="img/{{ sport.homeimage }}" alt="{{ sport.indeximagetext }}" class="img-fluid">
+        <h3><a href="watersports/{{ sport.slug }}.html">{{ sport.title }}</a></h3>
+      </div>
+    {% endfor %}
+  </div>
+  
+</div>
+{% endblock %}

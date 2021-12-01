@@ -1,0 +1,27 @@
+{% extends '_templates/base.njk' %}
+
+{% set relative_path = "../" %}
+
+{% block page_title %}{{ title }}{% endblock %}
+
+{% block page_description %}{{ title }} by {{ author }}{% endblock %}
+
+{% block content %}
+  <article class="container">
+    <div class="row">
+      <div class="col-sm-4">
+          <img src="../img/{{ image }}" alt="{{ imagetext }}" class="img-fluid mb-4">
+      </div>
+      <div class="col-sm-8">
+          <h1>{{ title }}</h1>
+          <p>{{ blurb | safe }}</p>
+  <h1>Equipment</h1> 
+    <div id="equipmentlist" >
+     {% for listItem in listItems %}
+     <div>{{ listItem }}</div>
+     {% endfor %}
+   </div>
+      </div>
+    </div>
+  </article>
+{% endblock %}

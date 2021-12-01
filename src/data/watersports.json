@@ -1,0 +1,41 @@
+{
+  "watersports": [
+    {
+      "slug": "water-polo",
+      "sport": "Water Polo",
+      "title": "About Water Polo",
+      "homeimage": "./waterpolo.jpeg",
+      "indeximagetext": "Women's Water Polo Match",
+      "image": "./fullwaterpolopool.jpeg",
+      "imagetext": "FINA 12th World Cup",
+      "blurb": "Water polo is a full-contact, competitive aquatic sport played between two teams of seven players. It is played across four quarters in a deep pool so that no one can touch the bottom. It has been a sport in the modern Olympics since 1900 and a women's sport since 2000.",
+      "listName": "equipment",
+      "listItems": ["Cap", "Ball", "Suit", "Goal Net"]
+      
+    },
+    {
+      "slug": "swimming",
+      "sport": "Swimming",
+      "title": "About Swimming",
+      "blurb": "Not only is swimming a life-saving skill, it is a really fun sport too! Accessible to all skill levels and ages, it will keep you healthy and happy.Competitive swimming was first included at the modern Olympics in 1896 and has been open to women's participation since 1912.",
+      "homeimage":"./mainswimming.jpeg",
+      "indeximagetext": "Athlete Swimming Freestyle",
+      "image": "/swimlessons.jpeg",
+      "imagetext": "Woman Teaching Children to Swim",
+      "listName": "equipment",
+      "listItems": ["Cap", "Goggles", "Buoy", "Kickboard"]
+    }, 
+    {
+      "slug": "artistic-swimming",
+      "sport": "Artisitc Swimming",
+      "title": "About Artistic Swimming",
+      "blurb": "Artisitc Swimming, formerly known as synchronized swimming, has been a sport since 1891 and has been a sport at the Summer Olympics since 1984. On instruction from the IOC, FINA renamed the sport to artistic swimming. It is both an individual and team sport practiced in the water where athletes perform routines and figures. ",
+      "homeimage": "./synchro.jpeg",
+      "indeximagetext": "Artistic Swimmers Performing a Routine",
+      "image": "./synchrodetail.jpeg",
+      "imagetext": "Artistic Swimmers Performing a Lift",
+      "listName": "equipment",
+      "listItems": ["Cap", "Suit", "Makeup", "Nose Clip"]
+    }
+  
+  ]}
